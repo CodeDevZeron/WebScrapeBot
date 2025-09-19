@@ -9,8 +9,10 @@ from urllib.parse import urljoin, urlparse
 import zipfile
 import io
 
-BOT_TOKEN = BOT_TOKEN
-APP_URL = os.getenv("VERCEL_URL")  # e.g. https://yourproject.vercel.app
+# ---------- CONFIG ----------
+BOT_TOKEN = "8472822689:AAF5YmlrLD9bPCtNSk0TDhVcVzvK1l2mBdk"
+APP_URL = "https://webscrapebot.vercel.app"
+# ----------------------------
 
 bot = Bot(BOT_TOKEN)
 app = FastAPI()
