@@ -11,7 +11,7 @@ import io
 
 # ---------- CONFIG ----------
 BOT_TOKEN = "8472822689:AAF5YmlrLD9bPCtNSk0TDhVcVzvK1l2mBdk"
-APP_URL = "https://webscrapebot.vercel.app"
+APP_URL = "https://webscrapebot-lilac.vercel.app"
 # ----------------------------
 
 bot = Bot(BOT_TOKEN)
